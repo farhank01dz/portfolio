@@ -25,7 +25,7 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Websites using MERN stack technology. </b> 
+                <b className="purple">Websites using Full stack technology. </b> 
               </i>
               <br />
               <br />
@@ -46,7 +46,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/masoomraza2002"
+                  href="https://github.com/farhank01dz"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -56,7 +56,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/masoomraza2004/"
+                  href="https://www.linkedin.com/in/farhan-akhtar-403849252/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

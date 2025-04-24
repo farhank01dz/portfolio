@@ -90,17 +90,7 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                href="https://drive.google.com/file/d/1AYSvnoQjjf46qAa9gLXkyTOLXDU3cY9v/view"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Video Resume
-              </Nav.Link>
-            </Nav.Item>
+ 
 
 
 
