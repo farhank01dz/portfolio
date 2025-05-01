@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import search from "../../Assets/Projects/search.png";
+import search from "../../Assets/Projects/searchcopy.png";
 import weather from "../../Assets/Projects/weather.png";
-import zerodha from "../../Assets/Projects/zerodha.png";
+import zerodha from "../../Assets/Projects/zerodhacopy.png";
  
 
 function Projects() {
@@ -20,6 +20,16 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
            
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={zerodha}
+              isBlog={false}
+              title="Zerodha Frontend Clone"
+              description="This is a frontend clone of Zerodha, built using HTML, CSS, JavaScript, and React. The project replicates the UI of Zerodha’s trading platform, ensuring a responsive and clean user experience."
+              ghLink="https://github.com/farhank01dz/zerodha"
+              demoLink="https://zerodha-delta-lake.vercel.app/"
+            />
+          </Col>
 
            
 
@@ -33,7 +43,23 @@ function Projects() {
               demoLink="https://weather-five-ashen.vercel.app/"              
             />
           </Col>  
- 
+  
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={search}
+              isBlog={false}
+              title="Quest Search"
+              description="This project is Quest searchQuest Search is a project designed to enhance the search experience, offering users an intuitive and efficient way to find relevant information quickly and easily."
+              ghLink="https://github.com/farhank01dz/weather" 
+            />
+          </Col>
+
+
+
+
+
+
+
         </Row>
       </Container>
     </Container>
